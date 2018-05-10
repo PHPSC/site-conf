@@ -15,6 +15,6 @@ markdown: kramdown
 
 defaults:
   - scope:
-      path: "img/portifolio"
+      path: "img/portfolio"
     values:
       image: true
