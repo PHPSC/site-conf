@@ -171,6 +171,13 @@ header {
                 margin-bottom: 0;
                 background-color: #000;
             }
+            h2 {
+                font-weight: 400;
+                text-transform: uppercase;
+                margin-top: 0;
+                margin-bottom: 0;
+                background-color: #000;
+            }
             hr {
                 margin: 30px auto;
             }
@@ -229,6 +236,11 @@ header {
     display: block;
     max-width: 650px;
     margin: 0 auto;
+
+    // .portfolio-box-caption img {
+    //     max-height: 100px !important;
+    // }
+
     .portfolio-box-caption {
         color: white;
         opacity: 0;
