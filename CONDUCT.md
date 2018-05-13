@@ -16,4 +16,4 @@ Relembrando:
 - Humilhação pública é o ato de submeter, rebaixar, ridicularizar ou promover o vexame de outro publicamente.
 
 Se você se sentir assediado, discriminado, humilhado ou presenciar alguma dessas atitudes, entre em contato com a organização do evento imediatamente e relate o ocorrido.
-Após o relato de violação dos princípios acima descritos, a organização realizará uma análise e, quando necessário, tomará as ações cabíveis para impedir a reincidência. As ações tomadas podem ser uma conversa em busca da retratação, até um convite a se retirar do evento, sem direito a nenhum tipo de ressarcimento.
+Após o relato de violação das diretrizes acima descritas, a organização realizará uma análise e, quando necessário, tomará as ações cabíveis para impedir a reincidência. As ações tomadas podem ser uma conversa em busca da retratação, um convite a se retirar do evento sem direito a nenhum tipo de ressarcimento ou acionamento das autoridades cabíveis.
