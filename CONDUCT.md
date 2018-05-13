@@ -1,6 +1,6 @@
 # Código de Conduta - PHPSC Conference 2018
 
-A PHPSC Conference é um evento que tem como objetivo oferecer um ambiente inclusivo, amistoso, de boa convivência e livre de intimidações, onde **todas as pessoas são bem-vindas e a civilidade é obrigatória**.
+A PHPSC Conference é um evento que tem como objetivo oferecer um ambiente inclusivo, amistoso, de boa convivência e livre de intimidações, onde **todas as pessoas são bem-vindas e a civilidade é obrigatória**, prevalecendo o respeito, a tolerância e a cordialidade.
 
 Com este objetivo em mente, toda a organização do evento atuará para garantir um ambiente com essas qualidades.
 
