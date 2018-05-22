@@ -10,6 +10,16 @@ twitter_username: php_sc
 github_username: phpsc
 facebook_username: santa.catarina.elephants
 
+sponsors_and_supporters:
+  - url: "http://www.unisul.br/wps/portal/home/ensino/graduacao/sistemas-de-informacao?utm_source=phpsc&utm_medium=phpscconference2018&utm_campaign=phpscconference2018#?unidade=28"
+    name: "Unisul"
+    image: "img/sponsors-and-supporters/unisul.png"
+    text: "Curso de Sistemas de Informação Florianópolis"
+  - url: "https://www.hostinger.com.br/?utm_source=phpsc&utm_medium=phpscconference2018&utm_campaign=phpscconference2018"
+    name: "Hostinger"
+    image: "img/sponsors-and-supporters/hostinger.jpg"
+    text: "A hospedagem de sites mais rápida do mercado, por um preço imbatível!"
+
 # Build settings
 markdown: kramdown
 
