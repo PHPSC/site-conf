@@ -2,24 +2,24 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Apoio</h2>
+                <h2 class="section-heading">Patrocínio Bronze</h2>
                 <hr class="primary">
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row justify-content-md-center justify-content-lg-center">
-            {% for ss_item in site.sponsors_and_supporters%}
+            {% for sponsor in site.sponsors_bronze%}
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
-                    <a href="{{ ss_item.url }}" target="_blank">
-                        <img src="{{ ss_item.image  | absolute_url }}"
-                             alt="{{ ss_item.name }}"
-                             title="{{ ss_item.name }} | {{ ss_item.text }}"
+                    <a href="{{ sponsor.url }}" target="_blank">
+                        <img src="{{ sponsor.image  | absolute_url }}"
+                             alt="{{ sponsor.name }}"
+                             title="{{ sponsor.name }} | {{ sponsor.text }}"
                         />
                     </a>
-                    <h3><a href="{{ ss_item.url }}" target="_blank">{{ ss_item.name }}</a></h3>
-                    <p class="text-muted">{{ ss_item.text }}</p>
+                    <h3><a href="{{ sponsor.url }}" target="_blank">{{ sponsor.name }}</a></h3>
+                    <p class="text-muted">{{ sponsor.text }}</p>
                 </div>
             </div>
             {% endfor %}
