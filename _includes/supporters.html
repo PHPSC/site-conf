@@ -1,0 +1,28 @@
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Apoio</h2>
+                <hr class="primary">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-md-center justify-content-lg-center">
+            {% for supporter in site.supporters%}
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <a href="{{ supporter.url }}" target="_blank">
+                        <img src="{{ supporter.image  | absolute_url }}"
+                             alt="{{ supporter.name }}"
+                             title="{{ supporter.name }} | {{ supporter.text }}"
+                        />
+                    </a>
+                    <h3><a href="{{ supporter.url }}" target="_blank">{{ supporter.name }}</a></h3>
+                    <p class="text-muted">{{ supporter.text }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
