@@ -7,8 +7,11 @@
     <meta name="author" content="PHPSC - thiagopaes@phpsc.com.br">
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    
+
     <!-- Start facebook Open Graph Metadatas -->
+    <meta property="og:image:height" content="297">
+    <meta property="og:image:width" content="567">
+    <meta property="og:image" content="https://conf.phpsc.com.br/img/og-image.jpg">
     <meta content="{{ site.title }}" property="og:site_name"> {% if page.title %}
     <meta content="{{ page.title }}" property="og:title"> {% else %}
     <meta content="{{ site.title }}" property="og:title"> {% endif %} {% if page.title %}
@@ -36,6 +39,20 @@
     <meta name="twitter:description" content="{{ site.description }}"> {% endif %}
     <meta name="twitter:image:src" content="{{ '/img/logo_phpsc_transparent.png' | prepend: site.baseurl }}">
     <!-- End twitter cards metadatas -->
+
+    <!-- Favicon section -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png?v=oLdNbW02PY">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png?v=oLdNbW02PY">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png?v=oLdNbW02PY">
+    <link rel="manifest" href="/img/site.webmanifest?v=oLdNbW02PY">
+    <link rel="mask-icon" href="/img/safari-pinned-tab.svg?v=oLdNbW02PY" color="#6171c9">
+    <link rel="shortcut icon" href="/img/favicon.ico?v=oLdNbW02PY">
+    <meta name="apple-mobile-web-app-title" content="PHPSC Conference">
+    <meta name="application-name" content="PHPSC Conference">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content="/img/browserconfig.xml?v=oLdNbW02PY">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Favicon section -->
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
