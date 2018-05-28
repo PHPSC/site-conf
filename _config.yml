@@ -29,6 +29,10 @@ supporters:
     name: "GeekHunter"
     image: "img/supporters/geekhunter.png"
     text: "Conectamos os melhores desenvolvedores às empresas mais desejadas!"
+  - url: "https://king.host/?utm_source=phpsc&utm_medium=phpscconference2018&utm_campaign=phpscconference2018"
+    name: "KingHost"
+    image: "img/supporters/kinghost.png"
+    text: "Hospedagem de Site com Uptime de 99.9%"
 
 # Build settings
 markdown: kramdown
