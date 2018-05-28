@@ -8,8 +8,9 @@
         </div>
     </div>
     <div class="container">
+        {% for supporters_row in site.supporters%}
         <div class="row justify-content-md-center justify-content-lg-center">
-            {% for supporter in site.supporters%}
+            {% for supporter in supporters_row%}
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
                     <a href="{{ supporter.url }}" target="_blank">
@@ -24,5 +25,6 @@
             </div>
             {% endfor %}
         </div>
+        {% endfor %}
     </div>
 </section>
