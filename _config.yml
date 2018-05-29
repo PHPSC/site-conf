@@ -15,6 +15,10 @@ sponsors_bronze:
     name: "Umbler"
     image: "img/sponsors/umbler.png"
     text: "Hospedagem Cloud por demanda para Agências e Devs"
+  - url: "https://www.socialbase.com.br/br?utm_source=phpsc&utm_medium=phpscconference2018&utm_campaign=phpscconference2018"
+    name: "SocialBase"
+    image: "img/sponsors/socialbase.png"
+    text: "Rede Social Corporativa: Comunicação e Colaboração"
 
 supporters:
 - - url: "http://www.unisul.br/wps/portal/home/ensino/graduacao/sistemas-de-informacao?utm_source=phpsc&utm_medium=phpscconference2018&utm_campaign=phpscconference2018#?unidade=28"
