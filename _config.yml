@@ -47,13 +47,13 @@ talks:
    time_end: "09:00"
    title: "Credenciamento e recepção dos participantes"
    speaker: ""
-   description: "Todas as pessoas inscritas e palestrantes, devem retirar seus crachás e kit de publicidade nos balcões de credenciamento localizados na entrada do evento, para obterem acesso ao auditório."
+   description: "Todas as pessoas inscritas e palestrantes devem retirar seus crachás e kit de publicidade nos balcões de credenciamento (localizados na entrada do evento) para obterem acesso ao auditório."
    keynote: false
  - time_start: "09:00"
    time_end: "09:15"
    title: "Abertura"
    speaker: ""
-   description: "Após o credenciamento, no auditório, os participantes receberem as boas vindas por parte dos realizadores e patrocinadores. Na abertura, todos serão orientados sobre o funcionamento do evento, destaques e outras informações."
+   description: "No auditório, os participantes recebem as boas vindas por parte dos realizadores e patrocinadores. Na abertura, todos serão orientados sobre o funcionamento do evento, destaques e outras informações."
    keynote: false
  - time_start: "09:15"
    time_end: "10:15"
@@ -65,26 +65,26 @@ talks:
    time_end: "10:45"
    title: "Code Coverage e Testes Funcionais: Uma abordagem rápida"
    speaker: "Rodrigo Valceli Raimundo"
-   description: "O objetivo da palestra é mostrar de maneira simples, com pouquíssimas dependências externas, como produzir os relatórios de cobertura de código a partir de testes funcionais (usando WebDriver por exemplo). Essa abordagem ajuda tanto a identificar requisitos que não estejam sendo testados quanto código morto, de uma forma mais assertiva do que apenas com o uso de testes unitário."
+   description: "O objetivo da palestra é mostrar, de maneira simples, com pouquíssimas dependências externas, como produzir os relatórios de cobertura de código a partir de testes funcionais (usando WebDriver, por exemplo). Essa abordagem ajuda tanto a identificar requisitos que não estejam sendo testados quanto código morto de uma forma mais assertiva do que apenas com o uso de testes de unidade."
    keynote: false
  - time_start: "10:45"
    time_end: "11:15"
    title: "Domain Driven Design na prática"
    speaker: "Luiz Nunes"
    description: "Como é feita uma aplicação de acordo com os conceitos Domain Driven Design (DDD)? <br />
-                 Esta palestra tem objetivo de demonstrar sucitamente como uma aplicação pode seguir este conceito, utilizando exemplos."
+                 Utilizando exemplos, esta palestra tem o objetivo de demonstrar, sucintamente, como uma aplicação pode seguir este conceito."
    keynote: false
  - time_start: "11:15"
    time_end: "12:15"
    title: "Comunicação entre sistemas"
    speaker: "Anderson Casimiro"
-   description: "Assim como nós, as nossas aplicações não vivem sozinhas e dependem invariavelmente de outros sistemas - até para não reinventarmos a roda. Vamos explorar como desde de tempos onde REST nem estava pensado (e que usamos no dia a dia) aplicações comunicam-se entre si enviando dados ou comandos - aposto que você faz algumas coisas hoje que eram feitas já 20 anos atrás. Entrando na contemporaneidade vamos entender como SOAP, REST, GraphQL e gRPC podem e vão fazer parte de nossas vidas e dos nossos projetos. Ah, obviamente vamos quebrar alguns paradigmas envolvendo estes termos. Já parou para pensar que REST não quer dizer JSON? A ideia é ter argumentos para uma discussão: em se tratando de comunicação com outros sistemas, qual a melhor abordagem?"
+   description: "Assim como nós, as nossas aplicações não vivem sozinhas e dependem invariavelmente de outros sistemas - até para não reinventarmos a roda. Vamos explorar como, desde tempos onde REST nem estava pensado (e que usamos no dia a dia), aplicações comunicam-se entre si enviando dados ou comandos. Aposto que você faz algumas coisas hoje que já eram feitas 20 anos atrás. Entrando na contemporaneidade, vamos entender como SOAP, REST, GraphQL e gRPC podem, e vão, fazer parte de nossas vidas e dos nossos projetos. Ah, obviamente vamos quebrar alguns paradigmas envolvendo estes termos. Já parou para pensar que REST não quer dizer JSON? A ideia é ter argumentos para uma discussão: em se tratando de comunicação com outros sistemas, qual a melhor abordagem?"
    keynote: false
  - time_start: "12:15"
    time_end: "13:15"
    title: "Almoço"
    speaker: ""
-   description: "Uma excelente oportunidade de todas as pessoas no evento interagirem e trocarem ideias, colaboradores, empresas patrocinadoras e apoiadoras, palestrantes e coordenadores."
+   description: "Uma excelente oportunidade para os participantes, as empresas patrocinadoras e apoiadoras, os palestrantes e os coordenadores interagirem e trocarem ideias."
    keynote: false
  - time_start: "13:15"
    time_end: "14:15"
@@ -102,20 +102,20 @@ talks:
    time_end: "15:15"
    title: "O que aprendi pelo Caminho. 30+ conselhos que todo desenvolvedor deve levar para a vida profissional"
    speaker: "Johnathan Cardoso"
-   description: "Não são apenas conselhos, mas reflexões que um desenvolvedor já passou e passa por diversas situações, que podem ser evitadas de alguma forma. O objetivo da palestra é compartilhar experiências pessoais, sejam elas positivas ou negativas com outros profissionais, esperando que essas reflexões os ajudem de alguma forma a evitar dores de cabeça desnecessárias."
+   description: "Não são apenas conselhos, mas reflexões de um desenvolvedor que já passou, e passa, por diversas situações que podem ser evitadas de alguma forma. O objetivo da palestra é compartilhar experiências pessoais, sejam elas positivas ou negativas, com outros profissionais, esperando que estas reflexões os ajudem, de alguma forma, a evitar dores de cabeça desnecessárias."
    keynote: false
  - time_start: "15:15"
    time_end: "15:45"
    title: "Coffee Break"
    speaker: ""
-   description: "Durante o intervalo de coffee-break aproveite para relaxar, conhecer novas pessoas e estreitar contatos. <br />
-                 Neste tempo, também surge a oportunidade de todas as pessoas no evento interagirem entre sí, participantes das trilhas, empresas patrocinadoras e apoiadoras, palestrantes e coordenadores."
+   description: "Durante o intervalo de coffee-break, aproveite para relaxar, conhecer novas pessoas e estreitar contatos.<br />
+                 Neste tempo, também surge a oportunidade de todas as pessoas no evento interagirem entre sí e com as empresas patrocinadoras e apoiadoras, os palestrantes e os coordenadores."
    keynote: false
  - time_start: "15:45"
    time_end: "16:45"
    title: "Do estático ao dinâmico com Drupal"
    speaker: "Luiz Henrique Guerra"
-   description: "Como prototipar rapidamente num tema de Drupal seguido de como trocar o conteúdo estático por conteúdo real."
+   description: "Como prototipar rapidamente num tema de Drupal e, em seguida, como trocar o conteúdo estático por conteúdo real."
    keynote: false
  - time_start: "16:45"
    time_end: "17:45"
@@ -127,19 +127,19 @@ talks:
    time_end: "18:00"
    title: "Encerramento e Sorteios"
    speaker: ""
-   description: "No encerramento ocorreção os sorteios do brindes oferecidos pelas empresas apoiadoras e patrocinadoras."
+   description: "No encerramento, ocorrem os sorteios dos brindes oferecidos pelas empresas apoiadoras e patrocinadoras."
    keynote: false
  - time_start: "18:00"
    time_end: "19:15"
    title: "Deslocamento até o PHPPub"
    speaker: ""
-   description: "Parte dos organizadores vão se dirigir para um bar da região."
+   description: "Parte dos organizadores vai se dirigir para um bar da região."
    keynote: false
  - time_start: "19:15"
    time_end: "22:00"
    title: "PHPPub = 🐘 + 🍻"
    speaker: ""
-   description: "Vamos relaxar, tomar umas cervejas e curitir o fim do dia. Todos são convidados para este momento de descontração e networking!"
+   description: "Vamos relaxar, tomar umas cervejas e curtir o fim do dia. Todos são convidados para este momento de descontração e networking!"
    keynote: false
 
 # Build settings
