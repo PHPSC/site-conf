@@ -1,0 +1,27 @@
+<section class="bg-primary"  id="talks">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Talks do dia 9 de junho:</h2>
+                <hr class="primary">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div>
+            {% for talk in site.talks%}
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">{{ talk.title }}</h3>
+                    <h4 class="text-muted">{{ talk.time_start }} às {{ talk.time_end }} {% if talk.speaker != '' %}- {{ talk.speaker }}{% endif %}</h4>
+                </div>
+                {% if talk.description != '' %}
+                <div class="panel-body">
+                    <p class="text-primary">{{ talk.description }}</p>
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
