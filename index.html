@@ -47,6 +47,30 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFQ6LJP" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v3.3'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="478179522208583"
+        logged_in_greeting="Oi! Tá com alguma dúvida, fale com a gente por aqui! "
+        logged_out_greeting="Oi! Tá com alguma dúvida, fale com a gente por aqui! ">
+    </div>
+    <!-- Load Facebook SDK for JavaScript -->
     <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
         <div class="container">
             <div class="navbar-header">
@@ -76,8 +100,8 @@
 
                     <!-- navigation menu -->
                     <li class="active"><a data-scroll href="#about">Sobre</a></li>
-                    <li><a data-scroll href="#contribution">Call4Papers</a></li>
-                    <li><a href="https://www.sympla.com.br/phpsc-conference-2019__519863" rel="no-follow" target="_blank">Inscrições</a>
+                    <li><a data-scroll href="#contribution">Chamada de Trabalhos</a></li>
+                    <li><a data-scroll href="https://www.sympla.com.br/phpsc-conference-2019__519863" rel="no-follow" target="_blank">Inscrições</a>
                     </li>
                     <li><a data-scroll href="#partner">Patrocinadores</a></li>
                     <li><a data-scroll href="#photos">Fotos</a></li>
@@ -130,7 +154,7 @@
                         <li>Aprenda com os melhores do estado</li>
                         <li>Estudos de caso</li>
                         <li>Melhore seus skils</li>
-                        <li>Faça networking</li>
+                        <li>Networking</li>
 
                     </ul>
 
@@ -142,20 +166,20 @@
     <section id="facts" class="section bg-image-1 facts text-center">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-4">
 
                     <i class="ion-ios-calendar"></i>
                     <h3>08 de Junho de 2019</h3>
 
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-4">
 
                     <i class="ion-ios-location"></i>
                     <h3>Uniasselvi<br>Blumenau/SC</h3>
 
                 </div>
                
-                <div class="col-sm-3">
+                <div class="col-sm-4">
 
                     <i class="ion-speakerphone"></i>
                     <h3>Workshops e Palestras de alto nível</h3>
@@ -174,7 +198,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-3">
-                    <a class="partner-box partner-box-1" href="https://portal.uniasselvi.com.br/" rel="partner" target="_blank"></a>
+                    <a class="partner-box partner-box-1" href="https://portal.uniasselvi.com.br" rel="partner" target="_blank"></a>
                 </div>
                 <!-- <div class="col-sm-3">
                     <a class="partner-box partner-box-2"></a>
@@ -187,11 +211,11 @@
                 </div> -->
             </div>
 
-            <!-- <div class="row">
+            <div class="row">
                 <div class="col-sm-3">
-                    <a class="partner-box partner-box-5"></a>
+                    <a class="partner-box partner-box-5" href="http://www.asemanaphp.com.br" rel="partner" target="_blank"></a>
                 </div>
-                <div class="col-sm-3">
+                <!-- <div class="col-sm-3">
                     <a class="partner-box partner-box-6"></a>
                 </div>
                 <div class="col-sm-3">
@@ -199,8 +223,8 @@
                 </div>
                 <div class="col-sm-3">
                     <a class="partner-box partner-box-8"></a>
-                </div>
-            </div>    -->
+                </div> -->
+            </div>
     </section>
 
      <section id="contribution" class="section bg-image-2 contribution">
