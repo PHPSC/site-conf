@@ -322,7 +322,7 @@ ul li {
   min-height: 100vh;
   position: relative;
   text-align: center;
-  background: url(../images/backgrounds/header.png) no-repeat center center/cover;
+  background: url(../images/backgrounds/foto-itajai.jpg) no-repeat center center/cover;
   display: table;
 }
 .site-header::before {
@@ -525,13 +525,13 @@ table th {
   opacity: 1;
 }
 .partner .partner-box-1 {
-  background: url(../images/partner/logo-uniasselvi.jpg) no-repeat center center/contain;
+  background: url(../images/partner/logo-univali.png) no-repeat center center/contain;
 }
 .partner .partner-box-2 {
-  background: url(../images/partner/treina-web.png) no-repeat center center/contain;
+  background: url(../images/partner/partner-4.png) no-repeat center center/contain;
 }
 .partner .partner-box-3 {
-  background: url(../images/partner/alura-logo.png) no-repeat center center/contain;
+  background: url(../images/partner/partner-4.png) no-repeat center center/contain;
 }
 .partner .partner-box-4 {
   background: url(../images/partner/partner-4.png) no-repeat center center/contain;
