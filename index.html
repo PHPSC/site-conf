@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +10,8 @@
     <meta property="og:image:height" content="297">
     <meta property="og:image:width" content="567">
     <meta property="og:title" content="PHPSC Conference 2020">
-    <meta property="og:description" content="PHPSC Conference 2020 o maior evento de PHP de Santa Catarina e do Sul do pa&iacute;s.">
+    <meta property="og:description"
+        content="PHPSC Conference 2020 o maior evento de PHP de Santa Catarina e do Sul do país.">
     <meta property="og:url" content="https://conf.phpsc.com.br">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/icons/apple-touch-icon.png">
@@ -18,580 +20,280 @@
     <link rel="manifest" href="/assets/images/icons/site.webmanifest">
     <link rel="mask-icon" href="/assets/images/icons/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="shortcut icon" href="/assets/images/icons/favicon.ico">
-    <meta name="apple-mobile-web-app-title" content="PHPSC Conf">
-    <meta name="application-name" content="PHPSC Conf">
+    <meta name="apple-mobile-web-app-title" content="PHPSC Conference: O maior evento sobre PHP de Santa Catarina">
+    <meta name="application-name" content="PHPSC Conference: O maior evento sobre PHP de Santa Catarina">
     <meta name="msapplication-TileColor" content="#603cba">
     <meta name="msapplication-config" content="/assets/images/icons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <title>PHPSC Conference 2020</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-        w[l] = w[l] || []; w[l].push({
-            'gtm.start':
-                new Date().getTime(), event: 'gtm.js'
-        }); var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-TFQ6LJP');</script>
-    <!-- End Google Tag Manager -->
+    <title>PHPSC Conference: O maior evento sobre PHP de Santa Catarina e do Sul do País</title>
 
-    <!-- Facebook Pixel Code -->
-    <script>
-        !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-            n.queue = []; t = b.createElement(e); t.async = !0;
-            t.src = v; s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1774530019480379');
-        fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=1774530019480379&ev=PageView&noscript=1" /></noscript>
-    <!-- End Facebook Pixel Code -->
+    <style>
+        .is-main-hero {
+            color: #FFFFFF;
+            background-image: url("assets/images/phpsc-background-pattern.png"), linear-gradient(#662D91, #2e1d3b);
+            background-color: #662D91;
+        }
 
+        .is-main-hero .title {
+            color: #FFFFFF;
+        }
 
-    <!-- css -->
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
+        .is-main-hero .subtitle {
+            color: #d2a6f3;
+        }
+
+        .is-phpsc-logo {
+            padding: 10px;
+            background-color: #FFFFFF;
+        }
+    </style>
 </head>
-<body data-spy="scroll" data-target="#site-nav">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFQ6LJP" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <!-- Load Facebook SDK for JavaScript -->
-    <script>
-        window.fbAsyncInit = function () {
-            FB.init({
-                xfbml: true,
-                version: 'v3.3'
-            });
-        };
 
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
-
-    <!-- Your customer chat code -->
-    <div class="fb-customerchat" attribution=setup_tool page_id="478179522208583"
-        logged_in_greeting="Oi! Tá com alguma dúvida, fale com a gente por aqui! "
-        logged_out_greeting="Oi! Tá com alguma dúvida, fale com a gente por aqui! "
-        greeting_dialog_display="hide">
-    </div>
-    <div id="fb-root"></div>
-    <!-- Load Facebook SDK for JavaScript -->
-    <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
-        <div class="container">
-            <div class="navbar-header">
-
-                <!-- logo -->
-                <div class="site-branding">
-                    <a class="logo" href="index.html">
-
-                        <!-- logo image  -->
-                        <img src="assets/images/logo_azul-elephant.png" alt="Logo">
-
-                        PHPSC Conference
-                    </a>
-                </div>
-
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-
-            </div><!-- /.navbar-header -->
-
-            <div class="collapse navbar-collapse" id="navbar-items">
-                <ul class="nav navbar-nav navbar-right">
-
-                    <!-- navigation menu -->
-                    <li class="active"><a data-scroll href="#about">Sobre</a></li>
-                    <li><a data-scroll href="#schedule">Grade</a></li>
-                    <li><a data-scroll href="https://www.sympla.com.br/phpsc-conference-2020__820263" rel="no-follow" target="_blank">Inscrições</a>
-                    </li>
-                    <li><a data-scroll href="#partner">Patrocinadores</a></li>
-                    <li><a data-scroll href="#photos">Fotos</a></li>
-                    <li><a href="https://github.com/PHPSC/conf2018/blob/master/CONDUCT.md">Código de Conduta</a> </li>
-
-                </ul>
-            </div>
-        </div><!-- /.container -->
-    </nav>
-
-    <header id="site-header" class="site-header valign-center">
-        <div class="intro">
-
-            <h2>11 de Julho / Itajaí - Santa Catarina</h2>
-
-            <h1>PHPSC Conference 2020</h1>
-
-            <p>O maior evento de PHP do Sul do país</p>
-
-            <a class="btn btn-white"
-                href="https://www.sympla.com.br/phpsc-conference-2020__820263" rel="no-follow" target="_blank">Inscrições</a>
-
-        </div>
-    </header>
-
-    <section id="about" class="section about">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-
-                    <h3 class="section-title">O Evento</h3>
-
-                    <p>A PHPSC Conference tem como objetivo principal discutir melhores práticas sobre a tecnologia PHP e áreas co-relatas como
-                    Design, Técnicas de Desenvolvimento, Banco de Dados, Software Livre etc.</p>
-
-                    <figure>
-                        <img alt="" class="img-responsive" src="https://louc.me/i/0sxCYC.jpg">
+<body>
+    <section class="hero is-medium is-main-hero">
+        <div class="hero-body">
+            <div class="container">
+                <article class="media">
+                    <figure class="media-left">
+                        <p class="image is-64x64">
+                            <img src="assets/images/phpsc-logo.jpg" class="is-rounded is-phpsc-logo"
+                                alt="PHPSC Conference">
+                        </p>
                     </figure>
-
-                </div><!-- /.col-sm-6 -->
-
-                <div class="col-sm-6">
-
-                    <h3 class="section-title multiple-title">Da Comunidade para a Comunidade</h3>
-
-                    <p>Fomentar o crescimento do ecosistema catarinense de desenvolvedores PHP nos meios acadêmico, corporativo e pessoal, contando com profissionais qualificados e reconhecidos no estado e no Brasil.</p>
-
-                    <ul class="list-arrow-right">
-
-                        <li>Aprenda com os melhores do estado</li>
-                        <li>Estudos de caso</li>
-                        <li>Melhore seus skils</li>
-                        <li>Networking</li>
-
-                    </ul>
-
-                </div><!-- /.col-sm-6 -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
+                    <div class="media-content">
+                        <h1 class="title">
+                            PHPSC Conference
+                        </h1>
+                        <h2 class="subtitle">
+                            O maior evento sobre PHP de Santa Catarina!
+                        </h2>
+                    </div>
+            </div>
+        </div>
     </section>
 
-    <section id="facts" class="section bg-image-1 facts text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-
-                    <i class="ion-ios-calendar"></i>
-                    <h3>11 de Julho de 2020</h3>
-
-                </div>
-                <div class="col-sm-4">
-
-                    <i class="ion-ios-location"></i>
-                    <h3>UNIVALI<br>Itajaí/SC</h3>
-
-                </div>
-               
-                <div class="col-sm-4">
-
-                    <i class="ion-speakerphone"></i>
-                    <h3>Palestras de alto nível</h3>
-
-                </div>
-            </div><!-- row -->
-        </div><!-- container -->
+    <section class="section">
+        <h1 class="title is-1">Sobre a PHPSC Conf</h1>
+        <p>A <strong>PHPSC Conference</strong> tem como objetivo principal discutir melhores práticas sobre a tecnologia
+            PHP e áreas
+            co-relatas como Design, Técnicas de Desenvolvimento, Banco de Dados, Software Livre etc. Além de fomentar o
+            crescimento do ecosistema catarinense de desenvolvedores PHP nos meios acadêmico, corporativo e
+            pessoal, contando com profissionais qualificados e reconhecidos no estado e no Brasil.</p>
     </section>
 
-    <section id="partner" class="section partner">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="section-title">Apoio e Patrocinios</h3>
+    <section class="section hero is-danger">
+        <div class="level">
+            <div class="level-left">
+                <div class="level-item is-block">
+                    <h2 class="title is-2">Edição 2020</h2>
+                    <p>Devido a pandemia do novo coronavírus não teremos a nossa conferência em 2020.</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-1" href="https://www.univali.br/Paginas/default.aspx" rel="partner" target="_blank"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-2" href="https://www.zoocha.com/" rel="partner" target="_blank"></a>
-                </div>
-                <!-- <div class="col-sm-3">
-                    <a class="partner-box partner-box-3" href="https://www.alura.com.br"  rel="partner" ></a>
-                </div> -->
-                <!-- <div class="col-sm-3">
-                    <a class="partner-box partner-box-4"></a>
-                </div> -->
-            </div>
-
-            <div class="row">
-                <!-- <div class="col-sm-3">
-                    <a class="partner-box partner-box-5" href="http://www.asemanaphp.com.br" rel="partner" target="_blank"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-6" href="https://phpconference.com.br/" rel="partner" target="_blank"></a>
-                </div> -->
-                <!-- <div class="col-sm-3">
-                    <a class="partner-box partner-box-7"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-8"></a>
-                </div> -->
-            </div>
-    </section>
-
-    <section class="section schedule" id="schedule">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="section-title">Grade</h3>
-                </div>
-            </div>				
-            <div class="row">
-                <div class="table-wrap col-lg-12">
-                    <table class="schdule-table table table-bordered">
-                          <thead class="thead-light">
-                            <tr>
-                              <th class="head" scope="col">#</th>
-                              <th class="head" scope="col">Palestra</th>
-                              <th class="head" scope="col">Palestrante</th>
-                              <th class="head" scope="col">Horário</th>
-                              <th class="head" scope="col">Slides</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <th class="name" scope="row">01</th>
-                              <td>Credenciamento e boas vindas</td>				      
-                              <td>-</td>								      
-                              <td>09:00</td>					      
-                              <td>-</td>								      
-                            </tr>
-                            <tr>
-                              <th class="name" scope="row">02</th>
-                              <td>Abertura</td>				      
-                              <td>-</td>							      
-                              <td>09:30</td>						      
-                              <td>-</td>							      
-                            </tr>
-                            <tr>
-                                <th class="name" scope="row">03</th>
-                                <td>Em breve</td>				      
-                                <td></td>				      
-                                <td></td>						      
-                                <td></td>						      
-                              </tr>
-                            <tr>
-                              <th class="name" scope="row">04</th>
-                              <td>Em breve</td>				      
-                                <td></td>				      
-                                <td></td>						      
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th class="name" scope="row">03</th>
-                                <td>Em breve</td>				      
-                                <td></td>				      
-                                <td></td>						      
-                                <td></td>					      
-                              </tr>
-                            <tr>
-                                <th class="name" scope="row">05</th>
-                                <td>Em breve</td>				      
-                                <td></td>				      
-                                <td></td>						      
-                            <td></td>					      
-                            </tr>
-                            <tr>
-                                <th class="name" scope="row">06</th>
-                                <td>Em breve</td>				      
-                                <td></td>				      
-                                <td></td>						      
-                                <td></td>				      
-                            </tr>
-                            <tr>
-                                <th class="name" scope="row">07</th>
-                                <td>Em breve</td>				      
-                                <td></td>				      
-                                <td></td>						      
-                                <td></td>					      
-                            </tr>	
-                            <tr>
-                                <th class="name" scope="row">09</th>
-                                <td>Em breve</td>				      
-                                <td></td>				      
-                                <td></td>						      
-                                <td></td>					      
-                            </tr>	
-                              <tr>
-                                <th class="name" scope="row">10</th>
-                                <td>Em breve</td>				      
-                                <td></td>				      
-                                <td></td>						      
-                                <td></td>			      
-                              </tr>	
-                              <tr>
-                                <th class="name" scope="row">11</th>
-                                <td>Em breve</td>				      
-                                <td></td>				      
-                                <td></td>						      
-                                <td></td>					      
-                              </tr>	
-                              <tr>
-                                <th class="name" scope="row">12</th>
-                                <td>Encerramento e agradecimentos</td>				 
-                                <td>-</td>				      
-                                <td>17:00</td>					      
-                                <td>-</td>				      
-                              </tr>	
-                              <tr>
-                                <th class="name" scope="row">13</th>
-                                <td>PHPPub #phpinga</td>				 
-                                <td>A definir</td>				      
-                                <td>18:00</td>					      
-                                <td>-</td>					      
-                              </tr>											    
-                          </tbody>
-                    </table>							
-                </div>
-            </div>
-        </div>	
-    </section>
-    <!-- End schedule Area -->	
-
-    <!-- <section id="schedule" class="section schedule">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="section-title">Grade</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="09:00">09:00</time> - <time datetime="09:45:00">09:45</time>
-                        </div>
-                        <h3>Boas Vindas e Credenciamento</h3>
+            <div class="level-right">
+                <div class="level-item has-text-centered">
+                    <div class="notification  is-danger is-light">
+                        Siga as recomendações da sua secretaria estadual de saúde.
                     </div>
-                </div>
-                <div class="col-md-12 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="10:00">10:00</time> - <time datetime="10:30">10:30</time>
-                        </div>
-                        <h3>Abertura oficial</h3>
-                    </div>
-                </div>
-                <div class="col-md-12 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="10:30">10:30</time> - <time datetime="11:00">11:00</time>
-                        </div>
-                        <h3>Nós queremos você para a comunidade de Software Livre</h3>
-                        <p>Denis Brandl</p>
-                    </div>
-                </div>
-                <div class="col-md-12 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="11:00">11:00</time> - <time datetime="12:00">12:00</time>
-                        </div>
-                        <h3>Machine learning e deep learning em PHP</h3>
-                        <p>Cassio Santos</p>
-                    </div>
-                </div>
-                <div class="col-md-12 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="12:00">12:00</time> - <time datetime="13:30">13:30</time>
-                        </div>
-                        <h3>Almoço</h3>
-                    </div>
-                </div>
-                <div class="col-md-12 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="13:30">13:30</time> - <time datetime="14:00">14:00</time>
-                        </div>
-                        <h3>Cinco anos com Symfony</h3>
-                        <p>Murilo Lobato</p>
-                    </div>
-                </div>
-                <div class="col-md-12 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="14:00">14:00</time> - <time datetime="14:30">14:30</time>
-                        </div>
-                        <h3>Criando Aplicações Seguras com PHP</h3>
-                        <p>Domingos Teruel</p>
-                    </div>
-                </div>
-                <div class="col-md-12 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="14:30">14:30</time> - <time datetime="15:00">15:00</time>
-                        </div>
-                        <h3>Desmistificando o Trabalho Remoto</h3>
-                        <p>Thiago Paes</p>
-                    </div>
-                </div>
-                <div class="col-md-12 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="15:00">15:00</time> - <time datetime="16:00">16:00</time>
-                        </div>
-                        <h3>Coffee Break</h3>
-                    </div>
-                </div>
-                <div class="col-md-12 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="16:00">16:00</time> - <time datetime="17:00">17:00</time>
-                        </div>
-                        <h3>Keynote</h3>
-                        <p><strong>Er Galvão Abbot</strong></p>
-                    </div>
-                </div>
-                <div class="col-md-12 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="17:00">17:00</time> - <time datetime="17:15">17:15</time>
-                        </div>
-                        <h3>Encerramento e agradecimentos</h3>
-                    </div>
-                </div>
-                <div class="col-md-12 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="18:00">18:00</time> - <time datetime="00:00">__:__</time>
-                        </div>
-                        <h3>PHPPub #phpinga</h3>
-                        <address>
-                            <a href=" https://m.facebook.com/alemaogoldbar/" target="_blank" rel="nofollow">Alemão Gold</a>
-                        </address>
-                    </div>
-                </div>
-            </div>
-    </section> -->
-
-     <!-- <section id="contribution" class="section bg-image-2 contribution">
-         <div class="container">
-             <div class="row">
-                 <div class="col-md-12">
-                     <h3 class="text-uppercase mt0 font-400">Call4Papers: PHPSC Conference 2019</h3>
-                     <p> O Call4pappers já foi encerrado! Estamos avaliando as propostas enviadas.
-                         Em breve publicaremos as talks e workshops selecionados!
-                     </p>
-                    
-                 </div>
-             </div>
-         </div>
-     </section> -->
-
-    <section id="photos" class="section photos">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="section-title">Fotos da edição 2018</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="grid">
-
-                        <li class="grid-item grid-item-sm-12">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/evento-2018-01.jpeg">
-                        </li>
-
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/evento-2018-02.jpeg">
-                        </li>
-
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/evento-2018-03.jpeg">
-                        </li>
-
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/evento-2018-10.jpeg">
-                        </li>
-
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/evento-2018-05.jpeg">
-                        </li>
-
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/evento-2018-06.jpeg">
-                        </li>
-
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/evento-2018-07.jpeg">
-                        </li>
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/evento-2018-08.jpeg">
-                        </li>
-
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/evento-2018-09.jpeg">
-                        </li>
-
-                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="location" class="section location">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <h3 class="section-title">Univali</h3>
-                    <address>
-                        <p>Univali<br>  Campus Itajaí <br> R. Uruguai, 458 - Centro, Itajaí - SC, 88302-901</p>
-                    </address>
+    <section class="section">
+        <h2 class="title is-2">Edições anteriores</h2>
+        <div class="columns">
+            <div class="column">
+                <div class="card has-background-info-light">
+                    <div class="card-image">
+                        <figure class="image is-2by1">
+                            <img src="assets/images/photos/phpsc-conf-2019-uniasselvi-blumenau.jpg"
+                                alt="Foto dos participantes do PHPSC Conference 2019 na Uniasselvi em Blumenau">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="title is-3">2019</h3>
+                        <p class="subtitle">Uniasselvi, Blumenau.</p>
+                    </div>
                 </div>
-                <div class="col-sm-9">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3557.6017060335303!2d-48.66651748495497!3d-26.916132883126206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1583930969955!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="column">
+                <div class="card has-background-info-light">
+                    <div class="card-image">
+                        <figure class="image is-2by1">
+                            <img src="assets/images/photos/phpsc-conf-2018-unisul-florianopolis.png"
+                                alt="Foto dos participantes do PHPSC Conference 2018 na Unisul em Florianópolis">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="title is-3">2018</h3>
+                        <p class="subtitle">Unisul, Florianópolis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card has-background-info-light">
+                    <div class="card-image">
+                        <figure class="image is-2by1">
+                            <img src="assets/images/photos/sc-devsummit-2016-univille-joinville.jpg"
+                                alt="Foto dos participantes do SC DevSummit 2016 na Univille em Joinville">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="title is-3">2016<small>*</small></h3>
+                        <p class="subtitle">Univille, Joinville. <small>[*SC DevSummit]</small></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="columns">
+            <div class="column">
+                <div class="card has-background-info-light">
+                    <div class="card-image">
+                        <figure class="image is-2by1">
+                            <img src="assets/images/photos/phpsc-conf-2014-univille-joinville.jpg"
+                                alt="Foto dos participantes do PHPSC Conference 2014 na Univille em Joinville">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="title is-3">2014</h3>
+                        <p class="subtitle">Univille, Joinville.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card has-background-info-light">
+                    <div class="card-image">
+                        <figure class="image is-2by1">
+                            <img src="assets/images/photos/phpsc-conf-2013-unochapeco-chapeco.jpg"
+                                alt="Foto dos participantes do PHPSC Conference 2013 na Unochapecó em Chapecó">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="title is-3">2013</h3>
+                        <p class="subtitle">Unochapecó, Chapecó.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card has-background-info-light">
+                    <div class="card-image">
+                        <figure class="image is-2by1">
+                            <img src="assets/images/photos/phpsc-conf-2012-univali-sao-jose.jpg"
+                                alt="Foto dos participantes do PHPSC Conference 2012 na Univali em São José">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="title is-3">2012</h3>
+                        <p class="subtitle">Univali, São José.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column">
+                <div class="card has-background-info-light">
+                    <div class="card-image">
+                        <figure class="image is-2by1">
+                            <img src="assets/images/photos/phpsc-conf-2011-univali-itajai.jpg"
+                                alt="Foto dos participantes do PHPSC Conference 2011 na Univali em Itajaí">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="title is-3">2011</h3>
+                        <p class="subtitle">Univali, Itajaí.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card has-background-info-light">
+                    <div class="card-image">
+                        <figure class="image is-2by1">
+                            <img src="assets/images/photos/phpsc-conf-2010-sociesc-joinville.jpg"
+                                alt="Foto dos participantes do PHPSC Conference 2010 na Sociesc em Joinville">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="title is-3">2010</h3>
+                        <p class="subtitle">Sociesc, Joinville.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card has-background-info-light">
+                    <div class="card-image">
+                        <figure class="image is-2by1">
+                            <img src="assets/images/photos/phpsc-conf-2009-univali-itajai.jpg"
+                                alt="Foto dos participantes do PHPSC Conference 2009 na Univali em Itajaí">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="title is-3">2009</h3>
+                        <p class="subtitle">Univali, Itajaí.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                     <p class="site-info">Desenhado e desenvolvido pela Comunidade <a href="https://www.phpsc.com.br" rel="follow">PHPSC</a></p>
-                    <ul class="social-block">
-                        <li><a href="https://twitter.com/php_sc"><i class="ion-social-twitter"></i></a></li>
-                        <li><a href="https://fb.com/santa.catarina.elephants"><i class="ion-social-facebook"></i></a></li>
-                        <li><a href="https://github.com/phpsc"><i class="ion-social-github"></i></a></li>
+    <footer class="footer">
+        <div class="columns">
+            <div class="column">
+                <aside class="menu" aria-label="Redes Sociais">
+                    <p class="menu-label" aria-hidden="true">Redes Sociais</p>
+                    <ul class="menu-list">
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/php_sc">@php_sc no
+                                Twitter</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/phpsc/">@phpsc
+                                no Instagram</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer"
+                                href="https://facebook.com/santa.catarina.elephants/">Santa Catarina Elephants no
+                                Facebook</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer"
+                                href="https://linkedin.com/company/phpsc">@phpsc no LinkedIn</a></li>
                     </ul>
-                </div>
+                </aside>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="site-info">
-                        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0" rel="no-follow" target="_blank">PHPSC 2020 - CC BY-NC-SA</a>
-                    </p>
-                </div>
+            <div class="column">
+                <aside class="menu" aria-label="Códigos, Documentações e etc">
+                    <p class="menu-label" aria-hidden="true">Códigos, Documentações e etc</p>
+                    <ul class="menu-list">
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/PHPSC/">Github</a>
+                        </li>
+                        <li><a target="_blank" rel="noopener noreferrer"
+                                href="https://www.meetup.com/PHPSC-Floripa">Meetup.com</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://www.phpsc.com.br/">Site</a></li>
+                    </ul>
+                </aside>
             </div>
+            <div class="column">
+                <aside class="menu" aria-label="Chats">
+                    <p class="menu-label" aria-hidden="true">Chats</p>
+                    <ul class="menu-list">
+                        <li>
+                            <a target="_blank" rel="noopener noreferrer"
+                                href="https://phpsc-slackin.herokuapp.com/">Slack <small>(criar a sua conta)</small></a>
+                        </li>
+                        <li><a target="_blank" rel="noopener noreferrer"
+                                href="https://bitly.com/phpsc-whatsapp">WhatsApp</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://t.me/phpsc">Telegram</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer"
+                                href="https://bitly.com/phpsc-discord">Discord</a></li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+        <div>
+            Desenhado e desenvolvido pela Comunidade PHPSC. Código-fonte aberto no <a target="_blank"
+                rel="noopener noreferrer" href="https://github.com/PHPSC/site-conf"
+                class="tag is-info is-light">Github</a>. Este site não registrará nenhuma informação sobre o acesso,
+            porém é hospedado pelo Github Pages e utiliza a CDN do jsdelivr para servir o conteúdo do <a
+                href="https://bulma.io/" target="_blank" rel="noopener noreferrer">Bulma</a>.
         </div>
     </footer>
-
-    <!-- script -->
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
-    <script src="assets/js/main.js"></script>
 </body>
+
 </html>
