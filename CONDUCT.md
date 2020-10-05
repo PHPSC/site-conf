@@ -1,4 +1,4 @@
-# Código de Conduta - PHPSC Conference 2018
+# Código de Conduta - PHPSC Conference 2020
 
 A PHPSC Conference é um evento que tem como objetivo oferecer um ambiente inclusivo, amistoso, de boa convivência e livre de intimidações, onde **todas as pessoas são bem-vindas e a civilidade é obrigatória**, prevalecendo o respeito, a tolerância e a cordialidade.
 
@@ -16,4 +16,5 @@ Relembrando:
 - Humilhação pública é o ato de submeter, rebaixar, ridicularizar ou promover o vexame de outro publicamente.
 
 Se você se sentir assediado, discriminado, humilhado ou presenciar alguma dessas atitudes, entre em contato com a organização do evento imediatamente e relate o ocorrido.
+
 Após o relato de violação das diretrizes acima descritas, a organização realizará uma análise e, quando necessário, tomará as ações cabíveis para impedir a reincidência. As ações tomadas podem ser uma conversa em busca da retratação, um convite a se retirar do evento sem direito a nenhum tipo de ressarcimento ou acionamento das autoridades cabíveis.
